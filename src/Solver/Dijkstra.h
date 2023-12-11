@@ -9,7 +9,7 @@
 #include "Problem/Solution.h"
 
 class Dijkstra {
-
+public:
     // Mapeia cada vértice a sua distância mais curta conhecida do vértice de origem.
     using DistanceMap = std::unordered_map<Graph::Vertex, Graph::Weight>;
 
@@ -22,7 +22,6 @@ class Dijkstra {
             std::vector<std::pair<Graph::Weight, Graph::Vertex>>,
             std::greater<>>;
 
-public:
     // Resolve a instância do problema usando o algoritmo de Dijkstra.
     static Problem::Solution Solve(const Problem::Instance &instance);
 

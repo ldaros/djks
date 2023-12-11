@@ -1,6 +1,7 @@
 #include <vector>
 #include <queue>
 #include <unordered_map>
+#include <algorithm>
 #include "Dijkstra.h"
 #include "Graph/Graph.h"
 #include "Problem/Instance.h"

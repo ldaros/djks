@@ -1,4 +1,7 @@
 #include "Graph.h"
+#include <limits>
+
+const int Graph::kInfinity = std::numeric_limits<int>::max();
 
 Graph::Graph(Graph::Vertex num_vertices) :
         adjacency_matrix_(num_vertices, std::vector<Weight>(num_vertices, kInfinity)) {

@@ -10,7 +10,7 @@ public:
     using Vertex = int;
     using Weight = int;
     using AdjacencyMatrix = std::vector<std::vector<Weight>>;
-    const static Weight kInfinity = std::numeric_limits<Weight>::max();
+    const static Weight kInfinity;
 
     explicit Graph(Vertex num_vertices);
 

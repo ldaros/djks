@@ -3,6 +3,7 @@
 
 #include <queue>
 #include <unordered_map>
+#include <algorithm>
 #include "Graph/Graph.h"
 #include "Problem/Instance.h"
 #include "Problem/Solution.h"
